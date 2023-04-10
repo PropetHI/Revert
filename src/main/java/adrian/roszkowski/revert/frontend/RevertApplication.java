@@ -1,4 +1,4 @@
-package adrian.roszkowski.revert.ui;
+package adrian.roszkowski.revert.frontend;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
