@@ -1,14 +1,16 @@
 package adrian.roszkowski.revert.frontend;
 
+import adrian.roszkowski.revert.backend.ImageAlgorithms;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-public class HelloController {
-    @FXML
-    private Label welcomeText;
+public class MainController {
 
-    @FXML
-    protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
+    ImageAlgorithms imageAlgorithms;
+
+
+    public void initialize() {
+        imageAlgorithms = new ImageAlgorithms();
     }
+
 }

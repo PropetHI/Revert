@@ -26,6 +26,7 @@
             <version>18.0.2</version>
         </dependency>
 
+
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
@@ -60,7 +61,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>adrian.roszkowski.revert/adrian.roszkowski.revert.ui.HelloApplication</mainClass>
+                            <mainClass>adrian.roszkowski.revert/adrian.roszkowski.revert.frontend.RevertApplication</mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>
@@ -68,28 +69,6 @@
                             <stripDebug>true</stripDebug>
                             <noHeaderFiles>true</noHeaderFiles>
                         </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-install-plugin</artifactId>
-                <version>2.5.2</version>
-                <configuration>
-                    <groupId>princeton.university</groupId>
-                    <artifactId>algs4</artifactId>
-                    <version>1.0</version>
-                    <packaging>jar</packaging>
-                    <file>${basedir}/dependencies/algs4.jar</file>
-                    <generatePom>true</generatePom>
-                </configuration>
-                <executions>
-                    <execution>
-                        <id>install-jar-lib</id>
-                        <goals>
-                            <goal>install-file</goal>
-                        </goals>
-                        <phase>validate</phase>
                     </execution>
                 </executions>
             </plugin>

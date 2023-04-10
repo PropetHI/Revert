@@ -6,19 +6,18 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="applicationContainer" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <left>
-      <AnchorPane prefHeight="324.0" prefWidth="481.0" BorderPane.alignment="CENTER">
+      <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="362.0" prefWidth="472.0" styleClass="imageContainer" BorderPane.alignment="BOTTOM_LEFT">
          <children>
             <ImageView fitHeight="310.0" fitWidth="414.0" layoutX="34.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" />
          </children>
       </AnchorPane>
    </left>
    <right>
-      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+      <VBox alignment="CENTER_RIGHT" prefHeight="362.0" prefWidth="128.0" styleClass="sideBar" BorderPane.alignment="CENTER" />
    </right>
    <top>
-      <HBox prefHeight="38.0" prefWidth="600.0" BorderPane.alignment="CENTER" />
+      <HBox alignment="TOP_CENTER" prefHeight="38.0" prefWidth="600.0" styleClass="sideBar" BorderPane.alignment="CENTER" />
    </top>
 </BorderPane>

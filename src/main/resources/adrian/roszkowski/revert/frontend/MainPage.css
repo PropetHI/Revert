@@ -1,0 +1,16 @@
+
+
+.imageContainer {
+    -fx-background-color: dimgray;
+    -fx-effect: innershadow(gaussian, darkgrey, 100, 0.5, 0, 0);
+}
+
+.sideBar {
+    -fx-background-color: dimgray;
+    -fx-stroke: black;
+    -fx-stroke-width: 5;
+}
+
+.applicationContainer {
+    -fx-background-color: rgb(20, 20, 20);
+}
